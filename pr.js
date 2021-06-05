@@ -1,4 +1,4 @@
-class Shiritory {
+class worldPlay {
     constructor(words) {
       this.words = [];
     }
@@ -38,7 +38,7 @@ class Shiritory {
     }
   }
   
-  myShiritory = new Shiritory();
+  myShiritory = new worldPlay();
   console.log(myShiritory.play("apple")); // ["apple"]
   console.log(myShiritory.play("ear")); // ["apple", "ear"]
   console.log(myShiritory.play("rhino")); // ["apple", "ear", "rhino"]
